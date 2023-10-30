@@ -1,4 +1,4 @@
-question1)-
+
 1. The following are a few of the functions I developed to streamline my workflow.
   a)- void sort(struct Appointment appoints[], int max);
 This function sorts the Appointment struct array's values in ascending order using bubble sort.The outer loop iterates from the end of the array towards the beginning,
@@ -17,7 +17,7 @@ while available is a flag that will be set to one if an available slot is found.
 If the slot is not available, the loop continues, incrementing i by 1 so that the next element in the array can be checked. 
 Once the loop exits, the function returns the value of i, which will be the index of the next available slot in the array.
 
-Question2)-
+
 This module intentionally and significantly reduced the number of scanf function calls to avoid buffer overflow and enhance user experience.
 The reason for this is to prevent unexpected behavior due to input buffer issues. When the user enters input, it is stored in a buffer until it is consumed by a scanf function call.
 If the buffer is not cleared properly,it can cause issues with subsequent scanf function calls, leading to incorrect or unexpected behavior.
@@ -26,7 +26,7 @@ To remove any lingering input from the buffer and stop it from interfering with 
 This input handling method, combined with a reduced reliance on scanf function calls, makes the code more reliable and less prone to input buffer-related mistakes.
 As a result, the programme becomes more trustworthy and user-friendly.
 
-Question3)-The decision to place these functions in clinic.c was likely based on several factors and considerations related to the program's structure and design.
+The decision to place these functions in clinic.c was likely based on several factors and considerations related to the program's structure and design.
 1)Firstly, the sort function was placed in clinic.c because it operates on the Appointment struct array, which is the main data structure used throughout the program. 
 Sorting the array is a common task in the program, and having a dedicated function for it helps to keep the code organized and easy to maintain.
 2)Given that it uses the Appointment struct array and is utilised by a number of other functions, including removeAppointment and updateAppointment, the validAppointment function was probably added to clinic.c. T
