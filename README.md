@@ -36,10 +36,4 @@ To run the Veterinary Clinic Management System, follow these steps:
 
 Contributions are welcome! If you have suggestions or found a bug, please open an issue or create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 **Note:** For detailed specifications and project documentation, refer to the provided project documentation.
